@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- =================================================== -->
+<!-- Author:           Thomas Uebel                      -->
+<!-- Description:                                        -->
+<!-- A theme based on Striped using the dark color       -->
+<!-- scheme of  Ethan Schoonover's Solarized.            -->
+<!-- =================================================== -->
+<!DOCTYPE theme [
+    <!ENTITY base03     "002b36">
+    <!ENTITY base02     "073642">
+    <!ENTITY base01     "586e75">
+    <!ENTITY base00     "657b83">
+    <!ENTITY base0      "839496">
+    <!ENTITY base1      "93a1a1">
+    <!ENTITY base2      "eee8d5">
+    <!ENTITY base3      "fdf6e3">
+    <!ENTITY yellow     "b58900">
+    <!ENTITY orange     "cb4b16">
+    <!ENTITY red        "dc322f">
+    <!ENTITY magenta    "d33682">
+    <!ENTITY violet     "6c71c4">
+    <!ENTITY blue       "268bd2">
+    <!ENTITY cyan       "2aa198">
+    <!ENTITY green      "859900">
+]>
+<theme>
+    <!-- = File table appearance ========================= -->
+    <!-- ================================================= -->
+    <file_table>
+        <font                            family="Lucida Grande,Tahoma,Lucida Sans" size="12"/>
+
+        <normal>
+            <background                    color="&base03;"/>
+            <inactive_background           color="&base03;"/>
+        </normal>
+
+        <alternate>
+            <background                    color="&base03;"/>
+            <inactive_background           color="&base03;"/>
+        </alternate>
+
+        <selected>
+            <background                    color="&base02;"/>
+            <inactive_background           color="&base02;"/>
+            <inactive_secondary_background color="&base02;"/>
+            <secondary_background          color="&base02;"/>
+        </selected>
+
+        <unmatched>
+            <background                    color="&base03;"/>
+            <foreground                    color="&base0;"/>
+        </unmatched>
+
+        <hidden>
+            <normal>
+                <foreground                  color="&red;"/>
+                <inactive_foreground         color="&red;"/>
+            </normal>
+            <selected>
+                <foreground                  color="&magenta;"/>
+                <inactive_foreground         color="&magenta;"/>
+            </selected>
+        </hidden>
+
+        <folder>
+            <normal>
+                <inactive_foreground         color="&base0;"/>
+                <foreground                  color="&base0;"/>
+            </normal>
+            <selected>
+                <inactive_foreground         color="&magenta;"/>
+                <foreground                  color="&magenta;"/>
+            </selected>
+        </folder>
+
+        <archive>
+            <normal>
+                <inactive_foreground         color="&yellow;"/>
+                <foreground                  color="&yellow;"/>
+            </normal>
+            <selected>
+                <inactive_foreground         color="&magenta;"/>
+                <foreground                  color="&magenta;"/>
+            </selected>
+        </archive>
+
+        <symlink>
+            <normal>
+                <inactive_foreground         color="&green;"/>
+                <foreground                  color="&green;"/>
+            </normal>
+            <selected>
+                <inactive_foreground         color="&magenta;"/>
+                <foreground                  color="&magenta;"/>
+            </selected>
+        </symlink>
+
+        <file>
+            <normal>
+                <inactive_foreground         color="&base0;"/>
+                <foreground                  color="&base0;"/>
+            </normal>
+            <selected>
+                <inactive_foreground         color="&magenta;"/>
+                <foreground                  color="&magenta;"/>
+            </selected>
+        </file>
+
+        <marked>
+            <normal>
+                <inactive_foreground         color="&blue;"/>
+                <foreground                  color="&blue;"/>
+            </normal>
+            <selected>
+                <inactive_foreground         color="&blue;"/>
+                <foreground                  color="&blue;"/>
+            </selected>
+        </marked>
+    </file_table>
+
+
+
+    <!-- = Shell appearance ============================== -->
+    <!-- ================================================= -->
+    <shell>
+        <font family="Monospaced,Lucida Sans Typewriter" size ="12" bold="true"/>
+
+        <!-- = Default appearance ========================== -->
+        <!-- =============================================== -->
+        <normal>
+            <foreground color="000000"/>
+            <background color="&base03;"/>
+        </normal>
+
+        <!-- = Selected appearance ========================= -->
+        <!-- =============================================== -->
+        <selected>
+            <foreground color="ffffff"/>
+            <background color="&base03;"/>
+        </selected>
+    </shell>
+
+
+
+    <!-- = Shell history appearance ====================== -->
+    <!-- ================================================= -->
+    <shell_history>
+        <font family="Lucida Grande,Tahoma,Lucida Sans" size ="12"/>
+
+        <!-- = Default appearance ========================== -->
+        <!-- =============================================== -->
+        <normal>
+            <foreground color="000000"/>
+            <background color="&base03;"/>
+        </normal>
+
+        <!-- = Selected appearance ========================= -->
+        <!-- =============================================== -->
+        <selected>
+            <foreground color="ffffff"/>
+            <background color="&base03;"/>
+        </selected>
+    </shell_history>
+
+    <editor>
+        <font family="Lucida Grande,Tahoma,Lucida Sans" size ="12"/>
+
+        <normal>
+            <foreground color="&base0;"/>
+            <background color="&base03;"/>
+        </normal>
+
+        <selected>
+            <foreground color="&base0;"/>
+            <background color="&base02;"/>
+        </selected>
+    </editor>
+
+
+    <!-- = Location bar appearance ======================= -->
+    <!-- ================================================= -->
+    <location_bar>
+        <font family="Lucida Grande,Tahoma,Lucida Sans" size ="12"/>
+        <progress color="3875d7" alpha="40"/>
+
+        <!-- = Default appearance ========================== -->
+        <!-- =============================================== -->
+        <normal>
+            <foreground color="&base1;"/>
+            <background color="&base03;"/>
+        </normal>
+
+        <!-- = Selected appearance ========================= -->
+        <!-- =============================================== -->
+        <selected>
+            <foreground color="&base1;"/>
+            <background color="&base02;"/>
+        </selected>
+    </location_bar>
+
+
+
+    <!-- = Status bar appearance ========================= -->
+    <!-- ================================================= -->
+    <status_bar>
+        <font      family="Lucida Grande,Tahoma,Lucida Sans" size ="12"/>
+        <foreground color="000000"/>
+        <border     color="868686"/>
+        <background color="d6d6d6"/>
+        <ok         color="5dc23c"/>
+        <warning    color="f6dc6c"/>
+        <critical   color="e6594e"/>
+    </status_bar>
+
+    <quick_list>
+        <header>
+            <font family="Lucida Grande,Tahoma,Lucida Sans" size ="13"/>
+            <foreground           color="ffffff"/>
+            <background           color="1b44f3"/>
+            <secondary_background color="5170f6"/>
+        </header>
+        <item>
+            <font family="Lucida Grande,Tahoma,Lucida Sans" size ="12"/>
+            <normal>
+                <foreground color="000000"/>
+                <background color="ffffff"/>
+            </normal>
+            <selected>
+                <foreground color="ffffff"/>
+                <background color="3875d7"/>
+            </selected>
+        </item>
+    </quick_list>
+</theme>
